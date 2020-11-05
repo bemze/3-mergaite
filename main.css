@@ -1,6 +1,46 @@
-body{
-    background-color: #F8F8F8;
+body > div {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    background-color: blue;
 }
-header{
+header {
+    display: inline-block;
+    width: 100%;
     
+
 }
+    header > img {
+        display: inline-block;
+        float: left;
+
+    }
+    nav{
+        display: inline-block;
+        float: right;
+    }
+
+main {display: inline-block;
+
+}
+   main > div {
+    width: 100%;
+    display: inline-block;
+    float: left;
+
+
+
+    }
+        h1 {
+
+        }
+        p {
+
+        }
+        main > img {
+            display: inline-block;
+            float: right;
+
+
+
+        }
